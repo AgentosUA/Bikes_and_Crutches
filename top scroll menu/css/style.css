@@ -1,0 +1,82 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background: #212121;
+  color: #fff;
+  font-family: Calibri;
+}
+body a {
+  font-weight: 600;
+  color: #F6B105;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 5px 10px;
+  height: auto;
+  min-width: 900px;
+  max-width: 1020px;
+  overflow: hidden;
+}
+
+header {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 65px;
+  background: #282828;
+  vertical-align: middle;
+}
+header .wrapper div {
+  display: inline-block;
+}
+
+.logo {
+  float: left;
+  margin: 5px 25px 0 0;
+}
+.logo img {
+  margin: 0;
+  width: 85%;
+}
+
+.nav {
+  flaot: left;
+  width: 100%;
+  min-width: 400px;
+  max-width: 550px;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  height: 65px;
+  line-height: 60px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  transition: 200ms ease-out;
+}
+
+.nav a:hover {
+  text-shadow: 0 0 2px white;
+  transition: 200ms ease-out;
+}
+
+.search input, .search button {
+  margin: 2px auto;
+  height: 22px;
+}
+.search input {
+  border: none;
+  border-radius: 3px;
+}
+.search button {
+  border: none;
+  border-radius: 3px;
+}
