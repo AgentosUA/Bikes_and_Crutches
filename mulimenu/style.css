@@ -1,0 +1,54 @@
+body {
+	font-family: Calibri;
+	font-weight: 600;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 5px; 
+	width: 1000px;
+	height: auto;
+}
+
+.menu {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu li {
+	float: left;
+	position: relative;
+}
+
+.menu li a {
+	display: block;
+	text-align: center;
+	min-width: 70px;
+	height: 20px;
+	line-height: 20px;
+	padding: 10px;
+	color: white;
+	background-color: #000;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background: #eee;
+	color: #000;
+}
+
+.submenu {
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 38px;
+	list-style: none;
+
+}
+
+.menu > li:hover > .submenu {
+	display: block;
+}
