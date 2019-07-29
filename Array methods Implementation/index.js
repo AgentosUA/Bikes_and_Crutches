@@ -61,3 +61,10 @@ Array.prototype.myIncludes = function (item, fromIndex) {
 
 // bind 
 
+let bind = (fn, context) => {
+    var bindArgs = [].slice.call(arguments, 2);
+    return function() {
+        let funcArgs = [].slice.call(arguments);
+        return fn.apply(context, bindArgs.concat(fnArgs));
+    }
+}
